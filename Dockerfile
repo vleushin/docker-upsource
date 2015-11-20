@@ -1,6 +1,6 @@
 FROM java:8
 
-ENV UPSOURCE_VERSION 2.0.3554
+ENV UPSOURCE_VERSION 2.5.4934
 
 RUN wget http://download.jetbrains.com/upsource/upsource-$UPSOURCE_VERSION.zip \
     && unzip upsource-$UPSOURCE_VERSION.zip -d /opt \
